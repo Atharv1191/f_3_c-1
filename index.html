@@ -4,69 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-        
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="leftside">
-            <div class="bigimg">
-                <img class="img3" src="./—Pngtree—javanese character with blangkon holding_8999487 1 (1).png" alt="">
-            </div>
-            <div class="QuickLinks">
-                <div class="h3">
-                    <h3>Quick Links</h3>
-                </div>
-                
-                <ol type="1">
-                    <a href="/index.html" class="a"><li>Home</li></a>
-                   <a href="#" class="a"><li>your Orders</li></a> 
-                   <a href="#" class="a"><li>Wallet</li></a>
-                    <a href="#" class="a"><li>Profile</li></a>
-                    <a href="#" class="a"><li>Logout</li></a>
+
+    <div class="main-menu">
+        <div class="aside">
+          <p><img src="./—Pngtree—javanese character with blangkon holding_8999487 1 (1).png"></p>
+          <h2>Welcome to Family Restaurant</h2>
+          <div class="quick-links">
+            <h3>Quick Links</h3>
+            <div class="orderList">
+                <ol>
+                    <li>Home</li>
+                    <li>Your Orders</li>
+                    <li>Wallet</li>
+                    <li>Profile</li>
+                    <li>Logout</li>
                 </ol>
             </div>
-            <div class="aboutus">
-                <ol type="1">
-                    <div class="h3">
-                        <h3>More About Us</h3>
-                    </div>
-                    
-                   <a href="#" class="a"><li>Our Blog</li></a> 
-                   <a href="#" class="a"><li>Upcoming Dishes</li></a>
-                    <a href="#" class="a"><li>Our Story</li></a>
-                    <a href="#" class="a"><li>Social Media Links</li></a>
+          </div>
+          <div class="more-about">
+            <h3>More About US</h3>
+            <div class="orderList">
+                <ol>
+                    <li>Our Blog</li>
+                    <li>Upcoming Dishes</li>
+                    <li>Our Story</li>
+                    <li>Social Media Links</li>
                 </ol>
             </div>
+          </div>
         </div>
-        <div class="rightside">
-            <nav class="navbar">
-                <div class="inputfield">
-                    <span class="searchimg"><img src="./search 1.png" alt=""></span>
-                    <input type="search" id="search" placeholder="Search food">
-                </div>
-               
-                <button id="btn">Sign up</button>
-                <button>Login</button>
-                <img class="img4" src="./—Pngtree—javanese character with blangkon holding_8999487 2.png" alt="">
-               
-            </nav>
-            <div class="headline">
-                <img class="img2" src="./Screenshot 2023-07-14 at 11.14 1.png" alt="">
+        <div class="content">
+            <div class="btn">
+                <input type="search" placeholder="Search Something" class="search-btn">
+                <button id="getOrder">Menu</button>
+                <button id="placeOrder">Take and Place Order</button>
+                <button id="payOrder">Pay Order</button>
+                <img src="./—Pngtree—javanese character with blangkon holding_8999487 1.png">
             </div>
-            <h1><a class="menutag" href="/menu.html">Click to view All Menu</a></h1>
-            <div class="menu">
+            <div class="Menu">Menu</div>
+            <div class="container">
                
-                  
-            </div>
+            </div>  
         </div>
-        
-        
-    </div>
-    <script src="./script.js"></script>
+    </div> 
+
+    <script src="script.js"></script>
 </body>
 </html>
